@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body {
+	background: #ffffff
+}
+
+
+svg {
+	font-family: 'Prata', serif;
+	
+    width: 100%;
+    text-align: center;
+    
+	
+}
+svg text {
+	font-family: 'Prata', serif;
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #2c2c2c;
+	font-size: 90px;
+}
+
+.ImageLogo{
+    margin-top: 100px;
+}
+
+h1{
+  font-family: 'Prata', serif;
+    font-size: 130%;
+    text-align: center;
+    padding: 110px;
+}
+h5{
+  font-family: 'Prata', serif;
+  font-size: 90%;
+  text-align: center;
+}
+
+
+@keyframes stroke {
+	0%   {
+		fill: rgba(14, 14, 14, 0); strokergb(36, 36, 36)5);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 1;
+	}
+	70%  {fill: rgba(43, 43, 43, 0); stroke: rgb(39, 39, 39); }
+	80%  {fill: rgba(72,138,20,0); stroke: rgb(44, 44, 44); stroke-width: 1; }
+	100% {
+		fill: rgb(53, 53, 53); stroke: rgba(255, 255, 255, 0); 
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+  
